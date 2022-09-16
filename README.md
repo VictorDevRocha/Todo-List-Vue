@@ -1,24 +1,46 @@
-# app
+# Todo-List-Vue
 
-## Project setup
+## Descrição do Projeto
+
+Projeto desenvolvido usando Vue.js como framework JS, com ele foi desenvolvido uma Todo List que usa os dados do JSON-SERVER para criar um CRUD, além disso, é possível colocar se a tarefa já foi concluída através de um ícone, também possui validação nos inputs, para não deixar que o usuário altere ou crie uma tarefa em branco.
+
+## Tecnologias Usadas
+
++ TailWind CSS
++ HTML
++ Vue.js e VueX
++ JSON-SERVER (simular uma API)
+
+## Configuração do Projeto
+
+Clone o repositório:
+
 ```
-yarn install
+git clone https://github.com/VictorDevRocha/Todo-List-Vue.git
 ```
 
-### Compiles and hot-reloads for development
+Baixe as depencias do projeto no terminal dando o comando:
+
 ```
-yarn serve
+npm install
 ```
 
-### Compiles and minifies for production
+## JSON-SERVER
+
+Install JSON Server:
+
 ```
-yarn build
+npm install -g json-server
 ```
 
-### Lints and fixes files
-```
-yarn lint
+Para dar start no JSON Server, acesse a pasta API e em seguida de o comando no terminal:
+
+```bash
+json-server --watch db.json
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Para compilar e iniciar o Projeto:(JSON-SERVER precisa estar iniciado para que o projeto funcione)
+
+```
+npm run serve
+```
