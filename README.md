@@ -39,7 +39,7 @@ Para dar start no JSON Server, acesse a pasta API e em seguida de o comando no t
 json-server --watch db.json
 ```
 
-### Para compilar e iniciar o Projeto:(JSON-SERVER precisa estar iniciado para que o projeto funcione)
+### Para compilar e iniciar o Projeto:(JSON-SERVER precisa estar em funcionamento para que o projeto funcione)
 
 ```
 npm run serve
